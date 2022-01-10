@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>Hello {}</b>
 
-<i>Iam A Simple Auto Filter Bot Of @CINIMA_KALAVARA . I Can Provide Movies In @CINIMA_KALAVARA Don't Try to Add To Me In Your Group </i>
+<i>Iam A Simple Auto Filter Bot Of @CINIMA_KALAVARA . \nI Can Provide Movies In @CINIMA_KALAVARA Don't Try to Add To Me In Your Group </i>
 
 <b>Made With ❤ BY @IET_Updates</b>"""
     HELP_TXT = """ʜᴇʏ {}
@@ -22,12 +22,9 @@ class script(object):
 
 <b>📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ :</b><b> <a href= https://t.me/IET_Updates>ɪᴇᴛ ᴜᴘᴅᴀᴛᴇs</a></b>"""
     SOURCE_TXT = """<b>മിന്നൽ മുരളി</b>
-- Mɪɴɴᴀʟ Mᴜʀᴀʟɪ ɪs Nᴏᴛ ᴀ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ ᴍᴀᴅᴇ ʙʏ <a href=https://t.me/iet_owner>IQBAL K A</a>. 
-- Source - <a href= https://t.me/IET_Owner/724>Source Code വേണമെങ്കിൽ പോയി കണ്ട് പിടിച്ചോ ട്ടോ 😁</a>
-
 <b><u>📽️ How To Create This BoT.?</u></b>
-<i><a href= https://youtu.be/1ltbuCY_V6s>എങ്ങനെ ഉണ്ടാക്കാം എന്ന് അറിയാൻ ഇവിടെ ക്ലിക്ക് ചെയ്താൽ മതി.</a></i>
 
+<i><a href= https://youtu.be/1ltbuCY_V6s>എങ്ങനെ ഉണ്ടാക്കാം എന്ന് അറിയാൻ ഇവിടെ ക്ലിക്ക് ചെയ്താൽ മതി.</a></i>
 <b>Support channel:</b>
 - <a href=https://t.me/IET_support>IET SUPPORT</a>"""
     MANUELFILTER_TXT = """പോടാ... ചീള് ചെക്കാ 🤓"""
