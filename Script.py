@@ -39,12 +39,7 @@ class script(object):
     STATUS_TXT = """<b>📁 ᴛᴏᴛᴀʟ ꜰɪʟᴇs: {}</b>
 
 <b>👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: {} 🕸️</b>
-
-<b>👥 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: {} 🕷️</b>
-
-<b>⚙️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: {}</b>
-
-<b>🆓 ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ: {}</b>"""
+No Other Information Available here"""
     LOG_TEXT_G = """#NewGroup
  Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
