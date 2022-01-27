@@ -400,7 +400,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('👩‍💻 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫', url=f'http://t.me/Iet_owner')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('ℹ️ Extra Modes', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -432,7 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Lʏʀɪᴄs', callback_data='start'),
         ], [
             InlineKeyboardButton('« Pʀᴇᴠ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data'),
             InlineKeyboardButton('Back', callback_data='start'),
             InlineKeyboardButton('Nᴇxᴛ »', callback_data='start'),
         ]]
