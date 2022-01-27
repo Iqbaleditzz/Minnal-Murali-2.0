@@ -414,26 +414,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Pᴜʀɢᴇ', callback_data='autofilter'),
             InlineKeyboardButton('Sᴘᴇᴇᴅ ᴛᴇsᴛ', callback_data='start'),
-            InlineKeyboardButton('T-ɢʀᴀᴘʜ', callback_data='start'),
         ], [
             InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='start'),
             InlineKeyboardButton('Mᴜᴛᴇ', callback_data='start'),
             InlineKeyboardButton('Bᴀɴ', callback_data='start'),
-            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
         ], [
             InlineKeyboardButton('URL-Sʜᴏʀᴛ', callback_data='start'),
-            InlineKeyboardButton('Iɴғᴏ', callback_data='start'),
+            InlineKeyboardButton('Iɴғᴏ', callback_data='extra'),
             InlineKeyboardButton('Pɪɴɢ', callback_data='start'),
-            InlineKeyboardButton('Gɪᴛʜᴜʙ', callback_data='start'),
         ], [
-            InlineKeyboardButton('Iᴍᴅʙ', callback_data='start'),
+            InlineKeyboardButton('Iᴍᴅʙ', callback_data='extra'),
             InlineKeyboardButton('Rᴇᴘᴏʀᴛ', callback_data='start'),
             InlineKeyboardButton('Sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='start'),
-            InlineKeyboardButton('Lʏʀɪᴄs', callback_data='start'),
+        ], [
+            InlineKeyboardButton('T-ɢʀᴀᴘʜ', callback_data='start'),
+            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+            InlineKeyboardButton('Gɪᴛʜᴜʙ', callback_data='source'),
         ], [
             InlineKeyboardButton('« Pʀᴇᴠ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data'),
-            InlineKeyboardButton('Back', callback_data='start'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
             InlineKeyboardButton('Nᴇxᴛ »', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
