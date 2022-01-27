@@ -1,11 +1,10 @@
 class script(object):
     START_TXT = """<b>Hello {}</b>
 
-<i>Iam A Simple Auto Filter Bot Of @CINIMA_KALAVARA . \nI Can Provide Movies In @CINIMA_KALAVARA Don't Try to Add To Me In Your Group </i>
+<i>Iam A Simple Auto Filter + Movie Search + Manual Filter Bot. I Can Provide Movies In Telegram Groups. I Can Also Add Filters In Telegram Groups.  Just Add Me To Your Group As Admin And Enjoy</i>
 
 <b>Made With ❤ BY @IET_Updates</b>"""
-    HELP_TXT = """ʜᴇʏ {}
-<b>Some കാട്ടിക്കൂട്ടൽ Of My Invention 😁</b>"""
+    HELP_TXT = """<b><i>Here is the help menu</i></b>"""
     ABOUT_TXT = """<b>🤖 ʙᴏᴛ ɴᴀᴍᴇ: <a href= https://t.me/MinnalsMuraliBot>🦸 Mɪɴɴᴀʟ Mᴜʀᴀʟɪ</a></b>
  
 <b>📝 ʟᴀɴɢᴜᴀɢᴇ :</b><b> <a href= https://www.python.org/>ᴘʏᴛʜᴏɴ³</a></b> 
@@ -21,7 +20,7 @@ class script(object):
 <b>👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :</b><b> <a href= https://t.me/IET_SUPPORT>ɪᴇᴛ sᴜᴘᴘᴏʀᴛ</a></b>
 
 <b>📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ :</b><b> <a href= https://t.me/IET_Updates>ɪᴇᴛ ᴜᴘᴅᴀᴛᴇs</a></b>"""
-    SOURCE_TXT = """<b>മിന്നൽ മുരളി</b>
+    SOURCE_TXT = """<b>🎈</b>
 <b><u>📽️ How To Create This BoT.?</u></b>
 
 <i><a href= https://youtu.be/1ltbuCY_V6s>എങ്ങനെ ഉണ്ടാക്കാം എന്ന് അറിയാൻ ഇവിടെ ക്ലിക്ക് ചെയ്താൽ മതി.</a></i>
