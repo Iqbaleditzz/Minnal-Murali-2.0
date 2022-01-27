@@ -53,6 +53,8 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention} 😍, \n Welcome to {message.chat.title} മച്ചാനെ ഗ്രൂപ്പിൽ എല്ലാവേരയും add ആക്കി Support Cheyy 🔥❤</b>")
+         await asyncio.sleep(120)
+            await k.delete()
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
