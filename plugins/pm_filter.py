@@ -119,7 +119,7 @@ async def advantage_spoll_choker(bot, query):
     if not movies:
         return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('Checking for Movie in database...')
+    await query.answer('database-ൽ ആ മൂവി ചെക്ക് ചെയ്യട്ടെ')
     k = await manual_filters(bot, query.message, text=movie)
     if k==False:
         files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
@@ -127,7 +127,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
+            k = await query.message.edit('അതും ഇല്ല.[ഗൂഗിൾ](http://Google.com)- പോയി സ്പെല്ലിംഗ് ഒന്ന് ചെക്ക് ചെയ്ത് നോക്ക്..')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -188,7 +188,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("That's not for you!!",show_alert=True)
+                await query.answer("എന്തിനാ മറ്റുള്ളവരുടെ MSG ൽ ഞെക്കുന്നത്..നിനക്ക് വേണമെങ്കിൽ നീ തിരയ്!",show_alert=True)
 
 
     elif "groupcb" in query.data:
