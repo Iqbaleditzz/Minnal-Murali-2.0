@@ -415,8 +415,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Pᴜʀɢᴇ', callback_data='autofilter'),
             InlineKeyboardButton('Sᴘᴇᴇᴅ ᴛᴇsᴛ', callback_data='start'),
         ], [
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='start'),
-            InlineKeyboardButton('Mᴜᴛᴇ', callback_data='start'),
+            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='extra'),
+            InlineKeyboardButton('Mᴜᴛᴇ', callback_data='admin'),
             InlineKeyboardButton('Bᴀɴ', callback_data='start'),
         ], [
             InlineKeyboardButton('URL-Sʜᴏʀᴛ', callback_data='start'),
