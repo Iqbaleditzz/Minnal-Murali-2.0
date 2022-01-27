@@ -43,7 +43,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('👩‍💻 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫', url=f'http://t.me/Iet_owner')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('🍁 Extra Modes', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -81,7 +81,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('👩‍💻 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫', url=f'http://t.me/Iet_owner')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('🔥 Extra Modes', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
